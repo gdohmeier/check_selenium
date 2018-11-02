@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "synthetics_util",
+                "projectName": "synthetics_util",
+                "workingDirectory": "/Users/garyd/Documents/gitstuff/check_selenium",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "synthetics_util",
+                "projectName": "synthetics_util",
+                "workingDirectory": "/Users/garyd/Documents/gitstuff/check_selenium",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}

@@ -1,3 +1,15 @@
+Updates 11/2018: 
+Updating this project to work work with...
+- selenium 3
+- JUnit 4.12
+- maven
+
+
+
+
+
+Original README below:
+
 This is a Nagios check for Selenium test cases.
 With this check it is possible to put your recorded test cases from your Selenium IDE into Nagios to use them for monitoring.
 
