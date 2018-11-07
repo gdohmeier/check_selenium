@@ -4,7 +4,9 @@ jdk: oraclejdk8
 
 install: true
 
-script: xvfb-run mvn clean install
+script: xvfb-run make test
+
+script: mvn clean install
 
 cache:
   directories:
