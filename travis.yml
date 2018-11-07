@@ -9,4 +9,3 @@ script: xvfb-run mvn clean install
 cache:
   directories:
   - $HOME/.m2
-
