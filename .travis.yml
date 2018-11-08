@@ -1,15 +1,25 @@
-language: java
+dist: trusty
+sudo: required
 
+env:
+  global:
+  - DISPLAY=:99.0
+
+language: java
 jdk: oraclejdk8
 
-install: true
+addon:
+  firefox: stable
 
 before_script:
 - wget https://github.com/mozilla/geckodriver/releases/geckodriver-v0.23.0-linux64.tar.gz -O /tmp/geckodriver.tar.gz
-- tar -xvf /tmp/geckodriver.tar.gz
+- tar -xzvf /tmp/geckodriver.tar.gz
 - export PATH=$PATH:$PWD/geckodriver
 
-script: xvfb-run mvn clean install
+script:
+  - xvfb-run --server-args="-screen 0 1024x768x24" make test
+  - sleep 5
+  - mvn clean install
 
 cache:
   directories:
