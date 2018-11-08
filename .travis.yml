@@ -17,7 +17,7 @@ before_script:
 - export PATH=$PATH:$PWD/geckodriver
 
 script:
-  - xvfb-run --server-args="-screen 0 1024x768x24" make test
+  - xvfb-run --server-args="-screen 0 1024x768x24"
   - sleep 5
   - mvn clean install
 
