@@ -15,10 +15,10 @@ before_script:
 - wget https://github.com/mozilla/geckodriver/releases/download/v0.23.0/geckodriver-v0.23.0-linux64.tar.gz -O /tmp/geckodriver.tar.gz
 - tar -xzvf /tmp/geckodriver.tar.gz
 - export PATH=$PATH:$PWD/geckodriver
+- sh -e /etc/init.d/xvfb start
+- sleep 3 # give xvfb some time to start
 
 script:
-  - xvfb-run --server-args="-screen 0 1024x768x24"
-  - sleep 5
   - mvn clean install
 
 cache:
