@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: info.devopsabyss.CallSeleniumTestTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.717 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.692 sec
