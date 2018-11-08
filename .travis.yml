@@ -12,7 +12,7 @@ addon:
   firefox: stable
 
 before_script:
-- wget https://github.com/mozilla/geckodriver/releases/geckodriver-v0.23.0-linux64.tar.gz -O /tmp/geckodriver.tar.gz
+- wget https://github.com/mozilla/geckodriver/releases/download/geckodriver-v0.23.0-linux64.tar.gz -O /tmp/geckodriver.tar.gz
 - tar -xzvf /tmp/geckodriver.tar.gz
 - export PATH=$PATH:$PWD/geckodriver
 
