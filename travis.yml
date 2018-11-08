@@ -1,8 +1,18 @@
 language: java
 
+dist: trusty
+
+env:
+  global:
+    - DISPLAY=:99.0
+
+addons:
+  firefox: stable
+
 jdk: oraclejdk8
 
 install: true
+
 
 script: xvfb-run make test
 
