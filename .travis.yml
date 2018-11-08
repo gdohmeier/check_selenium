@@ -5,7 +5,7 @@ jdk: oraclejdk8
 install: true
 
 before_script:
-- wget https://github.com/mozilla/geckodriver/releases/geckodriver-v0.23.0-linux64.tar.gz -O /tmp/geckodriver.tar.gz
+- wget https://github.com/mozilla/geckodriver/releases/download/v0.23.0/geckodriver-v0.23.0-linux64.tar.gz -O /tmp/geckodriver.tar.gz
 - tar -xvf /tmp/geckodriver.tar.gz
 - export PATH=$PATH:$PWD/geckodriver
 
