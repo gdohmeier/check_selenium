@@ -31,7 +31,6 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.apache.commons.cli.UnrecognizedOptionException;
 
-import org.junit.*;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 
