@@ -7,7 +7,7 @@ Updating this project to work work with...
 - remove build.xml and replace with pom.xml
 - restructure class path to work with maven
 - add .travis.yml and travisci build/test integration
-
+- add project to maven central repo sonatype
 
 
 Original README below:
