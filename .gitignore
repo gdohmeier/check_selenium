@@ -1,2 +1,16 @@
+
+#IntelliJ IDEA
 *.iml
-.idea
+.idea/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Compiled class file
+*.class
+target/

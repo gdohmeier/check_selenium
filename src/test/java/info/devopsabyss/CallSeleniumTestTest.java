@@ -27,7 +27,7 @@ public class CallSeleniumTestTest {
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
-	@Test
+/*	@Test
 	public void testCallSeleniumTestCase1() throws Exception {
 		System.out.println("get url");
 		driver.get(baseUrl + "/");
@@ -36,7 +36,7 @@ public class CallSeleniumTestTest {
 		Thread.sleep(2000);
 		System.out.println("done");
 	}
-
+*/
 	@Test
 	public void testCallSeleniumTestCase2() throws Exception {
 		System.out.println("get url");
