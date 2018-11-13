@@ -1,6 +1,6 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.gdohmeier/check_selenium/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.gdohmeier/check_selenium)
 
-#check_selenium 
+# check_selenium 
 
 Updates 11/2018: 
 Updating this project to work work with...
@@ -14,7 +14,7 @@ Updating this project to work work with...
 - add project to maven central repo sonatype
 
 
-#Original README below:
+# Original README below:
 
 This is a Nagios check for Selenium test cases.
 With this check it is possible to put your recorded test cases from your Selenium IDE into Nagios to use them for monitoring.
